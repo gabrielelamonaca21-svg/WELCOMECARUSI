@@ -1,7 +1,9 @@
 const fs = require('node:fs');
 const path = require('node:path');
 const { Client, GatewayIntentBits } = require('discord.js');
-const { token } = require('./config.json');
+
+// Get token from environment variable or config.json
+const token = process.env.DISCORD_TOKEN || require('./config.json').token;
 
 // Creiamo una nuova istanza del bot con i permessi necessari
 const client = new Client({
@@ -29,3 +31,4 @@ for (const file of eventFiles) {
 
 // Avviamo il bot usando il token nel config.json
 client.login(token);
+
