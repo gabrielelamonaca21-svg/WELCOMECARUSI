@@ -29,3 +29,4 @@ for (const file of eventFiles) {
 
 // Avviamo il bot usando il token nel config.json
 client.login(token);
+Correzione: utilizzo di una variabile d'ambiente per il token di Discord
