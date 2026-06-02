@@ -1,17 +1,11 @@
 {
-  "name": "Welcome alcool",
+  "name": "WELCOMECARUSI",
   "version": "1.0.0",
-  "description": "Welcome",
-  "main": "Welcome/index.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node Welcome/index.js"
+    "start": "node index.js"
   },
   "dependencies": {
-    "discord.js": "^14.18.0",
-    "dotenv": "^16.5.0",
-    "mongoose": "^8.14.1"
+    "discord.js": "^14.0.0"
   }
 }
-git add .
-git commit -m Welcome alcool
-git push origin main
