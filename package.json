@@ -12,3 +12,6 @@
     "mongoose": "^8.14.1"
   }
 }
+git add .
+git commit -m Welcome alcool
+git push origin main
